@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://physicalaiexpert.com/sitemap.xml
+Sitemap: https://sunnykatyara.org/sitemap.xml
