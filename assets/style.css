@@ -182,12 +182,6 @@ details.story[open] summary::after { transform: rotate(45deg); }
 details.story .prose { padding: 0 26px 14px; max-width: 46em; color: #cfd6e1; }
 
 .blocks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-.blocks.five { grid-template-columns: repeat(5, 1fr); }
-.blocks.five .block { padding: 24px; }
-.blocks.five h3 { font-size: 19px; }
-.blocks.five p { font-size: 15px; }
-a.block { text-decoration: none; color: inherit; display: block; }
-@media (max-width: 1100px) { .blocks.five { grid-template-columns: repeat(2, 1fr); } }
 .block { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 34px; transition: border-color .3s, transform .3s; }
 .block:hover { border-color: var(--accent); transform: translateY(-4px); }
 .block h3 { font-size: clamp(26px, 3vw, 40px); margin-bottom: 12px; }
